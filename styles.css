@@ -1,6 +1,6 @@
 @media only screen and (min-width: 600px) {
 	body{
-		margin: auto;
+		margin: center;
 		width: 100%;
 	}
 	
@@ -11,6 +11,17 @@
 		/* this makes a 3 column layout, you may choose any number > 1 */
 		grid-template-columns: 1fr 1fr 1fr 
 	}
+
+
 	
 	/* write the rest of grid css under here */
 }
+
+body{
+            background-color: black;
+
+}
+    img{
+        width: 300;
+        height: 300;
+    }
