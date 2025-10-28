@@ -1,0 +1,16 @@
+@media only screen and (min-width: 600px) {
+	body{
+		margin: auto;
+		width: 100%;
+	}
+	
+	.content{
+		font-family: cursive;
+		display: grid;
+		grid-gap: 1rem;
+		/* this makes a 3 column layout, you may choose any number > 1 */
+		grid-template-columns: 1fr 1fr 1fr 
+	}
+	
+	/* write the rest of grid css under here */
+}
